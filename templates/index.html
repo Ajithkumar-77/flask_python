@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Namma Kadai</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Namma Kadai</h1>
+    <div class="balance">
+      <p>Cash Balance: Rs. <span id="cashBalance">1000</span></p>
+    </div>
+    <div class="items">
+      <div class="item">
+        <h2>Pen</h2>
+        <p>Price: Rs. 5</p>
+        <p>Stock: <span id="penStock">100</span></p>
+        <button onclick="purchaseItem('pen', 5)">Purchase</button>
+        <button onclick="sellItem('pen', 5)">Sell</button>
+      </div>
+      <div class="item">
+        <h2>Pencil</h2>
+        <p>Price: Rs. 2</p>
+        <p>Stock: <span id="pencilStock">100</span></p>
+        <button onclick="purchaseItem('pencil', 2)">Purchase</button>
+        <button onclick="sellItem('pencil', 2)">Sell</button>
+      </div>
+      <div class="item">
+        <h2>Eraser</h2>
+        <p>Price: Rs. 1</p>
+        <p>Stock: <span id="eraserStock">100</span></p>
+        <button onclick="purchaseItem('eraser', 1)">Purchase</button>
+        <button onclick="sellItem('eraser', 1)">Sell</button>
+      </div>
+      <div class="item">
+        <h2>Sharpener</h2>
+        <p>Price: Rs. 2</p>
+        <p>Stock: <span id="sharpenerStock">100</span></p>
+        <button onclick="purchaseItem('sharpener', 2)">Purchase</button>
+        <button onclick="sellItem('sharpener', 2)">Sell</button>
+      </div>
+      <div class="item">
+        <h2>Geometry Box</h2>
+        <p>Price: Rs. 10</p>
+        <p>Stock: <span id="geometryBoxStock">100</span></p>
+        <button onclick="purchaseItem('geometryBox', 10)">Purchase</button>
+        <button onclick="sellItem('geometryBox', 10)">Sell</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
