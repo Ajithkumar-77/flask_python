@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bgc');
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: chartreuse;
+  }
+  
+  .balance {
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(238, 4, 160);
+  }
+  
+  .items {
+    display: flex;
+    justify-content: space-between;
+    color: red;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5px;
+
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #039cfb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3404f3;
+  }
